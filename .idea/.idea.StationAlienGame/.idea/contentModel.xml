@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\laser\.Rider2019.2\config\extensions" t="IncludeRecursive" />
+    <e p="C:\Users\laser\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\laser\.Rider2019.2\system\resharper-host\Local\Transient\ReSharperHost\v192\SolutionCaches\_StationAlienGame.-915084382.00" t="ExcludeRecursive" />
+    <e p="C:\Users\laser\OneDrive\Desktop\StationAlienGame" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Classes" t="Include">
+          <e p="BodyAssets" t="Include">
+            <e p="BodyPiece.cs" t="Include" />
+            <e p="Brain.cs" t="Include" />
+            <e p="ContainerPart.cs" t="Include" />
+            <e p="Eyes.cs" t="Include" />
+            <e p="Head.cs" t="Include" />
+            <e p="IBodyPart.cs" t="Include" />
+            <e p="IEffectivePart.cs" t="Include" />
+            <e p="IExternalPart.cs" t="Include" />
+            <e p="IInternalPart.cs" t="Include" />
+            <e p="Organ.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="StationAlienGame.sln" t="IncludeFlat" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
