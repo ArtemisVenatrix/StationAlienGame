@@ -1,6 +1,6 @@
 namespace Classes.BodyAssets
 {
-    public interface IInternalPart : IBodyPart
+    public interface IRadialPart
     {
         
     }
