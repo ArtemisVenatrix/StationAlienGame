@@ -9,14 +9,17 @@
       <e p="Assets" t="Include">
         <e p="Classes" t="Include">
           <e p="BodyAssets" t="Include">
+            <e p="BodySegment.cs" t="Include" />
             <e p="IBodyPart.cs" t="Include" />
             <e p="IEffectivePart.cs" t="Include" />
             <e p="IExternalPart.cs" t="Include" />
             <e p="IInlinePart.cs" t="Include" />
             <e p="IMountablePart.cs" t="Include" />
+            <e p="IOrganContainer.cs" t="Include" />
             <e p="IRadialPart.cs" t="Include" />
             <e p="Organ.cs" t="Include" />
             <e p="Port.cs" t="Include" />
+            <e p="UnexpectedRequestingPartException.cs" t="Include" />
           </e>
         </e>
         <e p="Map" t="Include">

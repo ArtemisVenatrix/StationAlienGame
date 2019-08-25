@@ -1,25 +1,39 @@
 using System;
+using UnityEngine;
 
 namespace Classes.BodyAssets
 {
     public class Port
     {
-        private IMountablePart part1;
-        private IMountablePart part2;
+        private Port sisterPort;
+        public IMountablePart ParentPart;
+        public Vector2 Pos;
+        public bool IsConnected;
 
-        public IMountablePart GetOtherPart(IMountablePart requestingPart)
+        public Port(IMountablePart parentPart, Vector2 pos)
         {
-            if (requestingPart.Equals(part1))
-            {
-                return part2;
-            }
+            ParentPart = parentPart;
+            Pos = pos;
+            IsConnected = false;
+        }
 
-            if (requestingPart.Equals(part2))
-            {
-                return part1;
-            }
-            
-            throw new Exception("Unexpected requesting part! Part: " + requestingPart);
+        public IMountablePart GetOtherPart()
+        {
+            return sisterPort.ParentPart;
+        }
+
+        public void ConnectPorts(Port pendingPort)
+        {
+            sisterPort = pendingPort;
+            sisterPort.ConnectPorts(this);
+            IsConnected = true;
+        }
+
+        public void SeverConnection()
+        {
+            sisterPort.SeverConnection();
+            sisterPort = null;
+            IsConnected = false;
         }
     }
 }

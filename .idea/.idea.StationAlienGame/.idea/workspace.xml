@@ -2,16 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b12a0c7-8f17-4998-a0a5-06d1a2b06f96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IExternalPart.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IExternalPart.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/BodySegment.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/BodySegment.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IOrganContainer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IOrganContainer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/UnexpectedRequestingPartException.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/UnexpectedRequestingPartException.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IBodyPart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IBodyPart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IEffectivePart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IEffectivePart.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IMountablePart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IMountablePart.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IRadialPart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IRadialPart.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Organ.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Organ.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,31 +27,38 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/BodySegment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IBodyPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IExternalPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IMountablePart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/UnexpectedRequestingPartException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IEffectivePart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Organ.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IRadialPart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IOrganContainer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IInternalPart.cs" />
-        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IContainerPart.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Head.cs" />
-        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/ContainerPart.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Brain.cs" />
-        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Organ.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Eyes.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/BodyPiece.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IExternalPart.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IBodyPart.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IEffectivePart.cs" />
-        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Organ.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/ContainerPart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IContainerPart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IOrganContainer.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IRadialPart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/UnexpectedRequestingPartException.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IMountablePart.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/BodySegment.cs" />
       </list>
     </option>
   </component>
@@ -109,8 +118,16 @@
       <workItem from="1566518849779" duration="2420000" />
       <workItem from="1566580105845" duration="4408000" />
       <workItem from="1566607136822" duration="14823000" />
-      <workItem from="1566672127746" duration="5441000" />
+      <workItem from="1566672127746" duration="18235000" />
     </task>
+    <task id="LOCAL-00001" summary="saving progress again">
+      <created>1566743148300</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566743148300</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,10 +148,16 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+    <MESSAGE value="saving progress again" />
+    <option name="LAST_COMMIT_MESSAGE" value="saving progress again" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="511" y="47" key="RiderGenerateDialog" />
+    <state x="511" y="47" key="RiderGenerateDialog/1366.768" />
     <state x="168" y="6" key="SettingsEditor" />
     <state x="168" y="6" key="SettingsEditor/1366.768" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/1366.768" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
