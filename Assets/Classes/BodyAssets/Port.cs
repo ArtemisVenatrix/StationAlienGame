@@ -6,13 +6,13 @@ namespace Classes.BodyAssets
     public class Port
     {
         private Port sisterPort;
-        public IMountablePart ParentPart;
+        public Bone ParentBone;
         public Vector2 Pos;
         public bool IsConnected;
 
-        public Port(IMountablePart parentPart, Vector2 pos)
+        public Port(Bone parentBone, Vector2 pos)
         {
-            ParentPart = parentPart;
+            ParentBone = parentBone;
             Pos = pos;
             IsConnected = false;
         }

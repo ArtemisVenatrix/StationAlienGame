@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b12a0c7-8f17-4998-a0a5-06d1a2b06f96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/BodySegment.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/BodySegment.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IOrganContainer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IOrganContainer.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/UnexpectedRequestingPartException.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/UnexpectedRequestingPartException.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IMountablePart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IMountablePart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IRadialPart.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IRadialPart.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Organ.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Organ.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/BodySegment.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/BodySegment.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IMountablePart.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IMountablePart.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IRadialPart.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IRadialPart.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,16 +27,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/BodySegment.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IBodyPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IExternalPart.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IMountablePart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/UnexpectedRequestingPartException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IEffectivePart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Organ.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IRadialPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IOrganContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -56,9 +53,10 @@
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IRadialPart.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/UnexpectedRequestingPartException.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IMountablePart.cs" />
-        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/BodySegment.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" />
       </list>
     </option>
   </component>
@@ -118,7 +116,7 @@
       <workItem from="1566518849779" duration="2420000" />
       <workItem from="1566580105845" duration="4408000" />
       <workItem from="1566607136822" duration="14823000" />
-      <workItem from="1566672127746" duration="18235000" />
+      <workItem from="1566672127746" duration="20795000" />
     </task>
     <task id="LOCAL-00001" summary="saving progress again">
       <created>1566743148300</created>
@@ -127,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566743148300</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="saving progress again">
+      <created>1566757013781</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566757013781</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
