@@ -9,16 +9,25 @@
       <e p="Assets" t="Include">
         <e p="Classes" t="Include">
           <e p="BodyAssets" t="Include">
-            <e p="BodyPiece.cs" t="Include" />
-            <e p="Brain.cs" t="Include" />
-            <e p="ContainerPart.cs" t="Include" />
-            <e p="Eyes.cs" t="Include" />
-            <e p="Head.cs" t="Include" />
             <e p="IBodyPart.cs" t="Include" />
             <e p="IEffectivePart.cs" t="Include" />
             <e p="IExternalPart.cs" t="Include" />
-            <e p="IInternalPart.cs" t="Include" />
+            <e p="IInlinePart.cs" t="Include" />
+            <e p="IMountablePart.cs" t="Include" />
+            <e p="IRadialPart.cs" t="Include" />
             <e p="Organ.cs" t="Include" />
+            <e p="Port.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Map" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="CustomTile.cs" t="Include" />
+            <e p="Level.cs" t="Include" />
+            <e p="MapBehaviour.cs" t="Include" />
+            <e p="MapGenerator.cs" t="Include" />
+            <e p="MapManagerBehaviour.cs" t="Include" />
+            <e p="MapType.cs" t="Include" />
+            <e p="StaticVentableTile.cs" t="Include" />
           </e>
         </e>
       </e>
