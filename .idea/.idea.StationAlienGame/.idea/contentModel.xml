@@ -15,8 +15,11 @@
             <e p="IExternalPart.cs" t="Include" />
             <e p="IOrganContainer.cs" t="Include" />
             <e p="Organ.cs" t="Include" />
-            <e p="Port.cs" t="Include" />
+            <e p="Shoulder.cs" t="Include" />
+            <e p="Skull.cs" t="Include" />
             <e p="UnexpectedRequestingPartException.cs" t="Include" />
+            <e p="Vertebrae.cs" t="Include" />
+            <e p="Vertex.cs" t="Include" />
           </e>
         </e>
         <e p="Map" t="Include">
@@ -30,6 +33,7 @@
             <e p="StaticVentableTile.cs" t="Include" />
           </e>
         </e>
+        <e p="ToolManagerScript.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

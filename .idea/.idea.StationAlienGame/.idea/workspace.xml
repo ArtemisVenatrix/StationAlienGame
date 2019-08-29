@@ -2,19 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b12a0c7-8f17-4998-a0a5-06d1a2b06f96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Shoulder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Shoulder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Skull.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Skull.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Tools.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertebrae.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertebrae.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertex.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertex.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Main.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Main.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToolManagerScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/ToolManagerScript.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/BodySegment.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/BodySegment.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IMountablePart.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IMountablePart.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IRadialPart.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/IRadialPart.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +31,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertebrae.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IBodyPart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IExternalPart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertex.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ToolManagerScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Shoulder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/UnexpectedRequestingPartException.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IEffectivePart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Skull.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Organ.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IOrganContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,8 +64,14 @@
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IMountablePart.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/IInlinePart.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/BodySegment.cs" />
-        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertex.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Tools/Shoulder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Shoulder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertebrae.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Skull.cs" />
+        <option value="$PROJECT_DIR$/Assets/ToolManagerScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs" />
       </list>
     </option>
   </component>
@@ -65,6 +80,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -87,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+  <component name="RunManager">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -117,6 +133,12 @@
       <workItem from="1566580105845" duration="4408000" />
       <workItem from="1566607136822" duration="14823000" />
       <workItem from="1566672127746" duration="20795000" />
+      <workItem from="1566770664284" duration="3926000" />
+      <workItem from="1566794054747" duration="1609000" />
+      <workItem from="1566834533630" duration="9066000" />
+      <workItem from="1566919672258" duration="6080000" />
+      <workItem from="1567020191276" duration="1311000" />
+      <workItem from="1567040828830" duration="1376000" />
     </task>
     <task id="LOCAL-00001" summary="saving progress again">
       <created>1566743148300</created>
@@ -132,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1566757013781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="yeet">
+      <created>1566770781723</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1566770781724</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,18 +174,24 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
     <MESSAGE value="saving progress again" />
-    <option name="LAST_COMMIT_MESSAGE" value="saving progress again" />
+    <MESSAGE value="yeet" />
+    <option name="LAST_COMMIT_MESSAGE" value="yeet" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="278" y="64" key="Rider.ProjectTemplateDialog.Size" />
+    <state x="278" y="64" key="Rider.ProjectTemplateDialog.Size/1366.768" />
     <state x="511" y="47" key="RiderGenerateDialog" />
     <state x="511" y="47" key="RiderGenerateDialog/1366.768" />
     <state x="168" y="6" key="SettingsEditor" />
