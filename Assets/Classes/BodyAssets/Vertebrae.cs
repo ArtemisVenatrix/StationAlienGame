@@ -6,6 +6,8 @@ namespace Classes.BodyAssets
 {
     public class Vertebrae : Bone
     {
+        public bool IsBack;
+        
         void Start()
         {
             Vertices = new Dictionary<GameObject, Vertex>();

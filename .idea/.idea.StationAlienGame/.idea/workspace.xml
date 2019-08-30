@@ -2,24 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b12a0c7-8f17-4998-a0a5-06d1a2b06f96" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Shoulder.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Shoulder.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Skull.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Skull.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Tools.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertebrae.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertebrae.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertex.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertex.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Main.unity" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Main.unity.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToolManagerScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/ToolManagerScript.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/LinearBoneTexture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/LinearBoneTexture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/PelvisTexture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/PelvisTexture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ShoulderTexture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ShoulderTexture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/SkullTexture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/SkullTexture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/VertexTexture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/VertexTexture.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UnitEditorUIManagerScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UnitEditorUIManagerScript.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.StationAlienGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Port.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertebrae.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertebrae.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/ToolManagerScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/ToolManagerScript.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,18 +30,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertebrae.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/UnexpectedRequestingPartException.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Organ.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IBodyPart.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IExternalPart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Main.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IOrganContainer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Shoulder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertex.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/ToolManagerScript.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Shoulder.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/UnexpectedRequestingPartException.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IEffectivePart.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Skull.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Organ.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IOrganContainer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IEffectivePart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/IExternalPart.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertebrae.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -68,10 +68,10 @@
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertex.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Tools/Shoulder.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Shoulder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertebrae.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Skull.cs" />
-        <option value="$PROJECT_DIR$/Assets/ToolManagerScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Bone.cs" />
+        <option value="$PROJECT_DIR$/Assets/Classes/BodyAssets/Vertebrae.cs" />
+        <option value="$PROJECT_DIR$/Assets/ToolManagerScript.cs" />
       </list>
     </option>
   </component>
@@ -89,7 +89,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,7 +103,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
@@ -139,6 +139,9 @@
       <workItem from="1566919672258" duration="6080000" />
       <workItem from="1567020191276" duration="1311000" />
       <workItem from="1567040828830" duration="1376000" />
+      <workItem from="1567042388217" duration="725000" />
+      <workItem from="1567105847148" duration="2233000" />
+      <workItem from="1567136155655" duration="2755000" />
     </task>
     <task id="LOCAL-00001" summary="saving progress again">
       <created>1566743148300</created>

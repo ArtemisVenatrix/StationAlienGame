@@ -34,6 +34,7 @@
           </e>
         </e>
         <e p="ToolManagerScript.cs" t="Include" />
+        <e p="UnitEditorUIManagerScript.cs" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
