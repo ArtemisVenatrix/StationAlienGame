@@ -2,26 +2,70 @@
 using System.Collections.Generic;
 using Classes.BodyAssets;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ToolManagerScript : MonoBehaviour
 {
     // Start is called before the first frame update
-    private bool rootPlaced;
-
-    [SerializeField] public GameObject skullTemplate;
-    [SerializeField] public GameObject legBoneTemplate;
-    [SerializeField] public GameObject armBoneTemplate;
-    [SerializeField] public GameObject vertebraeTemplate;
-    [SerializeField] public GameObject shoulderTemplate;
-    [SerializeField] public GameObject pelvisTemplate;
-    [SerializeField] public GameObject handBoneTemplate;
-    [SerializeField] public GameObject footBoneTemplate;
-    [SerializeField] public GameObject vertexTemplate;
-    [SerializeField] public GameObject boneContainer;
+    private GameObject myRoot;
+    public GameObject Root
+    {
+        get { return myRoot; }
+        set
+        {
+            if (myRoot == value) return;
+            myRoot = value;
+            if (OnRoot != null)
+                OnRoot(myRoot);
+        }
+    }
+    private List<GameObject> selected;
+    private Dictionary<string, GameObject> Templates;
     
+    [SerializeField] public GameObject boneContainer;
+    [SerializeField] public ChildHelper toolMenuChildHelper;
+
+    public delegate void OnRootDelegate(GameObject newVal);
+
+    public event OnRootDelegate OnRoot;
+
     void Start()
     {
-        rootPlaced = false;
+        OnRoot += OnRootHandler;
+        Templates = gameObject.GetComponent<ChildHelper>().GetChildren();
+    }
+
+    private void OnRootHandler(GameObject newVal)
+    {
+        if (newVal == null)
+        {
+            foreach (var pair in toolMenuChildHelper.GetChildren())
+            {
+                if (pair.Key.Equals("SkullButton"))
+                {
+                    pair.Value.GetComponent<Button>().interactable = true;
+                }
+                else
+                {
+                    pair.Value.GetComponent<Button>().interactable = false;
+                }
+            }
+            
+        }
+        else
+        {
+            foreach (var pair in toolMenuChildHelper.GetChildren())
+            {
+                if (pair.Key.Equals("SkullButton"))
+                {
+                    pair.Value.GetComponent<Button>().interactable = false;
+                }
+                else
+                {
+                    pair.Value.GetComponent<Button>().interactable = true;
+                }
+            }
+        }
     }
 
     // Update is called once per frame
@@ -30,13 +74,16 @@ public class ToolManagerScript : MonoBehaviour
         
     }
 
-    public void PlaceRoot()
+    public void PlaceSkull()
     {
-        GameObject tempV = Instantiate(vertexTemplate);
+        GameObject tempV = Instantiate(Templates["VertexTemplate"]);
         tempV.SetActive(true);
         tempV.transform.parent = boneContainer.transform;
-        GameObject tempS = Instantiate(skullTemplate);
+        Debug.Log(tempV);
+        GameObject tempS = Instantiate(Templates["SkullTemplate"]);
         tempS.SetActive(true);
+        tempS.transform.parent = boneContainer.transform;
         tempS.GetComponent<Skull>().Init(tempV);
+        Root = tempS;
     }
 }

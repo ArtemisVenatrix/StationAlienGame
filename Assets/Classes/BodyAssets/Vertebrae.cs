@@ -22,6 +22,8 @@ namespace Classes.BodyAssets
         {
             Vertices[v1] = v1.GetComponent<Vertex>();
             Vertices[v2] = v2.GetComponent<Vertex>();
+            Vertices[v1].Register(this);
+            Vertices[v2].Register(this);
             gameObject.transform.position = (v1.transform.position + v2.transform.position) / 2.0f;
             float y = v1.transform.position.y - v2.transform.position.y;
             float x = v1.transform.position.x - v2.transform.position.x;

@@ -14,5 +14,25 @@ namespace Classes.BodyAssets
             IEnumerable<Bone> requestedBones = from bone in ParentBones where !bone.Equals(requester) select bone;
             return requestedBones as List<Bone>;
         }
+
+        public bool Register(Bone requester)
+        {
+            if (requester is Vertebrae)
+            {
+                IEnumerable<Vertebrae> vertebraes =
+                    from bone in ParentBones where bone is Vertebrae select bone as Vertebrae;
+                if (vertebraes.Count() < 2)
+                {
+                    ParentBones.Add(requester);
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+            }
+            ParentBones.Add(requester);
+            return true;
+        }
     }
 }

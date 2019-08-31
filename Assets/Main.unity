@@ -412,6 +412,7 @@ GameObject:
   m_Component:
   - component: {fileID: 255736588}
   - component: {fileID: 255736587}
+  - component: {fileID: 255736589}
   m_Layer: 0
   m_Name: VertexTemplate
   m_TagString: Untagged
@@ -456,7 +457,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: c1fa17565c439c14eb5aea892695290f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -482,6 +483,19 @@ Transform:
   m_Father: {fileID: 1761392430}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &255736589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 255736586}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7d322776f774ff597ec7aedb8ee806f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ParentBones: []
 --- !u!1 &337973213
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,6 +1017,7 @@ GameObject:
   - component: {fileID: 626937715}
   - component: {fileID: 626937714}
   - component: {fileID: 626937713}
+  - component: {fileID: 626937716}
   m_Layer: 5
   m_Name: ToolPanel
   m_TagString: Untagged
@@ -1034,7 +1049,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 156.3, y: 0}
+  m_AnchoredPosition: {x: 156.2998, y: 0}
   m_SizeDelta: {x: 312.5, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &626937713
@@ -1100,6 +1115,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626937711}
   m_CullTransparentMesh: 0
+--- !u!114 &626937716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626937711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e30b8dc00db2f47bc4b14ca61e0c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FilterStrings:
+  - Button
 --- !u!1 &633718407
 GameObject:
   m_ObjectHideFlags: 0
@@ -1835,7 +1864,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1173392058}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1761392429}
+        m_MethodName: PlaceSkull
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1173392058
@@ -2442,6 +2482,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1761392430}
   - component: {fileID: 1761392429}
+  - component: {fileID: 1761392431}
   m_Layer: 0
   m_Name: ToolManager
   m_TagString: Untagged
@@ -2461,15 +2502,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 29b375b29aba5b748818b3cb23f8c24d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  skullTemplate: {fileID: 1804963190}
-  legBoneTemplate: {fileID: 440202522}
-  armBoneTemplate: {fileID: 2146787670}
-  vertebraeTemplate: {fileID: 1526728599}
-  shoulderTemplate: {fileID: 949967092}
-  pelvisTemplate: {fileID: 8280709}
-  handBoneTemplate: {fileID: 1205370130}
-  footBoneTemplate: {fileID: 108465649}
-  vertexTemplate: {fileID: 255736586}
   boneContainer: {fileID: 974018006}
 --- !u!4 &1761392430
 Transform:
@@ -2494,6 +2526,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1761392431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761392428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e30b8dc00db2f47bc4b14ca61e0c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FilterStrings:
+  - all
 --- !u!1 &1786541216
 GameObject:
   m_ObjectHideFlags: 0
